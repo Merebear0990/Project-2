@@ -1,0 +1,627 @@
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    * {
+        
+        font-family: "Raleway", sans-serif;
+      }
+      
+      body {
+    
+        margin-top: 0;
+      }
+      
+      /*--NAVIGATION--*/
+      header nav {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        margin-top: 0;
+      }
+      
+      .logo {
+        width: 25%;
+        min-height: 10px;
+        max-height: 50px;
+        margin-top: 20px;
+        margin-left: 5px;
+      
+      }
+      
+      header a {
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      
+      .nav_link {
+        margin: 0;
+        padding-top: 37px;
+      }
+      
+      
+      .nav_item {
+        margin-right: 40%;
+        margin-left: 10px;
+      }
+      
+       .slogan {
+         margin-left: 25px;
+         margin-top: 15px;
+         font-size: 18px;
+       }
+        
+        .sub_slogan p {
+        margin-top: 15px;
+        margin-left: 25px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        color: rgba(105, 100, 100, 0.979);
+       }
+      
+      
+      .search i{
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        padding: 6px;
+        padding-top: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 35px;
+        text-align: center;
+      
+      }
+      
+      .search {
+        margin-top: 25px;
+        display: flex;
+        height: 40px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+      }
+      
+      
+      
+      .search input {
+        border: 1px solid #f2f2f2;
+        padding: 9px;
+        font-weight: bold;
+      }
+      
+      
+      
+      .search__text{
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+      }
+      
+      
+      
+      .search__button {
+        background-color: #0065FC;
+        padding: 6px;
+        width: 80px;
+        color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-weight: bold;
+      } 
+      
+      .search__button:hover {
+        color: black;
+      }
+      
+      .filter {
+        max-width: 90%;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 2%;
+      }
+      
+       .filter__btn {
+        background-color: white;
+      /*   border-color: lightgrey;
+        border-style: solid;
+        border-width: 1px; */
+      
+        border: 1px solid #f2f2f2;
+        border-radius: 100px;
+        white-space: nowrap;
+        margin: 6px;
+        font-weight: bold;
+       }
+      
+      .filter__icon {
+        /* css to style the icon and make background blue circle */
+        font-size: 16px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 50%;
+      
+        
+        /* size and position of icon */
+        height: 35px;
+        width: 35px;
+        padding-top: 10px;
+        
+      }
+      
+      .filter__btn span {
+        padding: 10px 20px 10px 10px;
+        font-size: 12px;
+      }
+      
+      .filter__btn:hover {
+          background-color: #0065FC;
+      }
+      
+      .filter__wrap {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      
+        
+        .filter h2 {
+          margin: 14px 10px 13px 10px;
+          font-size: medium;
+          letter-spacing: 1px;
+        }
+        
+        
+        /*  nth-child to select specific elements  */
+        /*  order - flexbox property to change view order  */
+        /*  have to put order on ALL children of a flexbox parent */
+        .filter__wrap button:nth-child(1) {
+          order: 1;
+        }
+        
+        .filter__wrap button:nth-child(2) {
+          order: 3;
+        }
+        
+        .filter__wrap button:nth-child(3) {
+          order: 2;
+        }
+        
+        .filter__wrap button:nth-child(4) {
+          order: 4;
+        }
+      
+      
+        .info {
+          margin-top: 20px;
+          margin-bottom: 15px;
+          padding-left: 20px;
+        }
+      
+        .info i {
+          display: inline-block;
+          border: 2px solid lightgrey;
+          color: #0065FC;
+          border-radius: 50%;
+          height: 25px;
+          width: 25px;
+          margin-right: 10px;
+          margin-left: 15px;
+          text-align: center;
+          padding: 3px;
+        }
+      
+        .info__text {
+          display: inline-block;
+          width: 38%;
+          font-size: 15px;
+          flex-wrap: wrap;
+        }
+      
+        .info i:hover {
+          background-color: #00c1fce7;
+        }
+      
+      
+        @media screen and (max-width: 992px) {
+          .filter {
+            flex-direction: column;
+          }
+        }
+      
+      
+      
+      
+      /*accommodation style*/
+      
+      .accom-most-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+      
+      
+      .accom-container {
+        background-color: #f2f2f2;
+        display: inline-block;
+        justify-content: start;
+        border-radius: 15px;
+        margin-left: 28px;
+        padding: 25px 15px;
+        width: 64%;
+        }
+      
+      .accom__container__title {
+          margin-left: 15px;
+          font-size: 17px;
+        }
+      
+      
+        .accom__container_wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      
+      
+      .checked {
+        color: #0065FC;
+      }
+      
+      
+      .accom__card{
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding: 3px;
+        width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+      
+      }
+      
+      #accom_1, 
+      #accom_4 {
+        margin-left: 5px;
+      }
+      
+      #accom_3
+      #accom_6 {
+        margin-right: 5px;
+      }
+      
+      #la-mer {
+        object-fit: cover;
+        object-position: bottom;
+      }
+      
+      #amina {
+        object-fit: cover;
+        object-position: left;
+      }
+      
+      .accom__card img {
+        width: 100%;
+        height: 95px;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+         
+      }
+      
+      .accom__card a {
+        text-decoration: none;
+        color: black; 
+      }
+      
+      .accom__card img:hover {
+        filter: brightness(75%);
+        color: white;
+      }
+      
+      
+      .accom__card__text {
+        margin-left: 8px;
+      }
+      
+      .accom__card__text h3{
+        font-size: 13px;
+        font-weight: bold;
+      }
+      
+      
+      .accom__card__text p {
+        margin: 5px 0;
+        font-size: 11px;
+      }
+      
+      .show_more {
+        display: inline-block;
+        background-color: #f2f2f2;
+        border: none;
+        justify-content: left;
+        padding-top: 25px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        margin-left: 15px;
+      }
+      
+      .show_more:hover {
+        color: #0065fc;
+      }
+      
+      .cost {
+        font-weight: bold;
+      }
+      
+      .most-pop{
+        display: inline-block;
+        width: 29%;
+        background-color: #f2f2f2;
+        border-radius: 15px;
+        padding: 25px 15px;
+        margin-right: 25px;
+      }
+      
+      .most-pop__heading {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .most-pop__heading h2 {
+        display: inline-block;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        font-size: 17px;
+      }
+      
+      .most-pop__heading i {
+        display: inline-block;
+        margin-right: 5px;
+      }
+      
+      
+      
+       .pop__card{
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        margin-top: 15px;
+        margin-left: 8px;
+        width: 100%;
+        
+      }
+      
+      .most__image {
+        width: 40%;
+        object-fit: cover;
+        height: 110px; 
+        flex: none;
+        border-radius: 10px 0 0 10px;
+        
+      }
+      
+      .pop__card a {
+        display: inline-block;
+        text-decoration: none;
+        color: black; 
+      }
+      
+      .most__image:hover {
+        filter: brightness(75%);
+        color: white;
+      }
+      
+      .most-text-wrap * {
+        margin: 0;
+      }
+      
+      .most-text-wrap {
+        padding-top: 8px;
+        justify-content: space-evenly;
+        width: 55%;
+        margin-left: 10px;
+      
+      }
+      
+      .most-text-wrap h3 {
+        height: 35%;
+        font-size: 13px;
+      }
+      
+      .most-text-wrap p {
+        font-size: 11.9px;
+        height: 48%;
+      }
+      
+      .most-text-wrap div {
+        height: 17%;
+      }
+      
+      .card_most_text_wrap {
+        justify-content: space-evenly;
+        width: 57%;
+        padding-top: 5px;
+        margin-left: 10px;
+      }
+      
+      .card_most_text_wrap h3 {
+        height: 30%;
+        font-size: 13px;
+      }
+      .card_most_text_wrap p {
+        height: 55%;
+        font-size: 11.9px;
+        padding-top: 5px;
+      }
+      .card_most_text_wrap .rating{
+        height: 8%;
+      }
+      
+       
+      #au-coer {
+        font-size: 11.5px;
+      }
+      
+      .rating {
+        margin-bottom: 3px;
+        font-size: 10px;
+      }
+      
+      /*--ACTIVITIES--*/
+      
+      .act {
+        border-radius: 15px;
+        padding: 20px;
+        margin: 15px;
+      }
+      
+      
+      .activities__title {
+        font-size: 17px;
+      }
+       
+      .activities {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 10px;
+        background-color: white;
+        justify-content: space-between;
+      }
+      
+      .act__card {
+        display: block;
+        width: 20%;
+        padding: 0;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 3px gray;
+        margin: 0;
+      }
+      
+      
+      .act__cards__wrap {
+        width: 23%;
+      }
+      
+      .act__cards__wrap .act__card {
+        width: 100%;
+      }
+      
+      .act_tall {
+        width: 100%; 
+        object-fit: cover;
+        height: 250px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 0;
+        padding-bottom: 0;
+      }
+      
+      .act_small {
+        object-fit: cover;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 0;
+        padding: 0;
+      }
+      
+      
+      .activties img:hover {
+        filter: brightness(75%);
+        color: white;
+        
+      }
+      
+      .activities a {
+        text-decoration: none;
+      }
+      
+      
+      .card__title {
+        text-align: left;
+        font-size: 13px;
+        margin-left: 15px;
+        padding: 8px 0;
+        text-decoration: none;
+      }
+      
+      #act_card_2,
+      #act_card_5 {
+        margin-bottom: 25px;
+      }
+      
+      #img-2 {
+        height: 105px;
+      }
+      
+      #img-3 {
+        height: 90px;
+      }
+      
+      #img-5 {
+        object-position: top;
+        height: 100px;
+      }
+      
+      #img-6 {
+        height: 95px;
+      }
+      
+       
+      
+      .footer {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0px;
+        justify-content: space-around;
+        margin-top: 2px;
+      }
+      
+      ul {
+        list-style-type: none;
+        font-size: 14px;
+        margin: 15px 0 15px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      li {
+        margin-bottom: 10%;
+      }
+      
+      .footer h2 {
+        padding: 0;
+        font-size: 17px;
+      }
+      
+      .footer a {
+        text-decoration: none;
+      }
+      
+      .footer a:hover {
+        color:#0065FC;
+      }
+      
+      
+      .footer_list {
+        margin-left: -15%;
+        margin-top: 3%;
+        padding: 0px;
+      }
+         
+}
